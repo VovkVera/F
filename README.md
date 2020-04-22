@@ -7,7 +7,7 @@ You have to implement minimalistic Django application with admin interface and o
 ## Description ##
 ### General ### 
 Module should be designed for analysis of discount conditions between partner companies.  
-Notion 1 - Discount Agreement (Agreement)</br>   
+Notion 1 - Discount Agreement (Agreement)</br>
 Notion 2 - Period of agreement (Period)</br>
 Notion 3 - Company</br>
 Notion 4 - Country </br>
@@ -27,14 +27,15 @@ On the index page there should be link to the django admin only.</br>
 You have to implement API for agreement calendar.</br>
 Number displayed in a month block means number of agreements that are closing this month. Agreement is closing this month if stop date of latest period is in this month.</br>
 /agreements/calendar/ - sample JSON response: </br>
-    { 
-        2017: [0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 0, 5],
-        2018: [1, 0, 0, 4, 0, 0, 0, 1, 7, 10, 0, 4] 
-    }
+ >{ 
+  >      2017: [0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 0, 5],
+  >      2018: [1, 0, 0, 4, 0, 0, 0, 1, 7, 10, 0, 4] 
+>    }
 </br>
 > 2017 and 2018 are years. Arrays - index means month number, digit - number of closing agreements.
+</br>
 Endpoint should support following filters: country, negotiator, company. 
-For example: 
+For example: </br>
 > ?country=1,2,7&negotitator=4,8 Number is an id of an object. </br>
 
 ## Requirements ##
