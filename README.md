@@ -1,6 +1,9 @@
-Python test task
-Brief
-You have to implement minimalistic Django application with admin interface and one REST endpoint. Important: before starting implementation you should read carefully Requirements paragraph and do the task accordingly to it.
+Python test task. 
+
+Brief. 
+
+You have to implement minimalistic Django application with admin interface and one REST endpoint. Important: before starting implementation you should read carefully Requirements paragraph and do the task accordingly to it.  
+
 Description
 General
 Module should be designed for analysis of discount conditions between partner companies.
