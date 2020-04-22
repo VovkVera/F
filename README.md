@@ -7,7 +7,7 @@ You have to implement minimalistic Django application with admin interface and o
 Description. 
 General. 
 Module should be designed for analysis of discount conditions between partner companies.  
-Notion 1 - Discount Agreement (Agreement). 
+Notion 1 - Discount Agreement (Agreement).   
 Notion 2 - Period of agreement (Period).  
 Notion 3 - Company.    
 Notion 4 - Country.  
