@@ -4,14 +4,15 @@ Brief.
 
 You have to implement minimalistic Django application with admin interface and one REST endpoint. Important: before starting implementation you should read carefully Requirements paragraph and do the task accordingly to it.  
 
-Description
-General
-Module should be designed for analysis of discount conditions between partner companies.
-Notion 1 - Discount Agreement (Agreement) 
-Notion 2 - Period of agreement (Period) 
-Notion 3 - Company 
-Notion 4 - Country 
-Notion 5 - Responsible person (Negotiator)
+Description. 
+General. 
+Module should be designed for analysis of discount conditions between partner companies.  
+Notion 1 - Discount Agreement (Agreement). 
+Notion 2 - Period of agreement (Period).  
+Notion 3 - Company.    
+Notion 4 - Country.  
+Notion 5 - Responsible person (Negotiator). 
+
 Agreement has start and stop date, company agreement concluded with, responsible person - negotiator, debit and credit turnover (export/import).
 Period - start and stop date, status - described below. One agreement can have several periods inside. Inside agreement periods should not intersect. Agreement start date could be earlier than start date of the earliest period (but not vice versa) as well as agreement stop date could be later than stop date of the latest period (but not vice versa).
 Company - title, country.
