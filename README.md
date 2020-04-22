@@ -27,12 +27,12 @@ On the index page there should be link to the django admin only.</br>
 You have to implement API for agreement calendar.</br>
 Number displayed in a month block means number of agreements that are closing this month. Agreement is closing this month if stop date of latest period is in this month.</br>
 /agreements/calendar/ - sample JSON response: </br>
-> { </br>
-      2017: [0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 0, 5],</br>
-      2018: [1, 0, 0, 4, 0, 0, 0, 1, 7, 10, 0, 4] </br>
->}</br>
+< { 
+      2017: [0, 0, 0, 0, 0, 0, 0, 0, 12, 1, 0, 5],
+      2018: [1, 0, 0, 4, 0, 0, 0, 1, 7, 10, 0, 4] 
+}>
 </br>
-2017 and 2018 are years. Arrays - index means month number, digit - number of closing agreements.
+>2017 and 2018 are years. Arrays - index means month number, digit - number of closing agreements.</br>
 Endpoint should support following filters: country, negotiator, company. For example: ?country=1,2,7&negotitator=4,8 Number is an id of an object. </br>
 
 ## Requirements ##
