@@ -1,11 +1,11 @@
-Python test task. 
+# Python test task #
 
-Brief. 
+## Brief ##
 
 You have to implement minimalistic Django application with admin interface and one REST endpoint. Important: before starting implementation you should read carefully Requirements paragraph and do the task accordingly to it.  
 
-Description. 
-General. 
+## Description ##
+### General ### 
 Module should be designed for analysis of discount conditions between partner companies.  
 Notion 1 - Discount Agreement (Agreement).   
 Notion 2 - Period of agreement (Period).  
